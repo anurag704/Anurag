@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Mulish', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: #fff !important;
+}
+
+.navbar-brand {
+    font-size: 1.9rem !important;
+color: #565387 !important;
+}
+
+.navbar a{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.nav-item{
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: #3498db !important;
+    border-bottom: 1px solid  #565387;
+
+}
+
+.carousel-item{
+    font-weight: bold;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 96vh;
+}
+.about_img{
+    min-width: 100%;
+    max-height: 280px;
+}
+
+.carousel-item h5{
+    letter-spacing: 4px;
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    color: #565387 !important;
+    border-bottom: 1px solid  #f00808; 
+}
+
+.carousel-item h5:hover{
+    color: #3498db !important;
+}
+
+.carousel-item p{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    color: #565387 !important;
+}
+
+.carousel-item p:hover{
+    color: #3498db !important;
+}
+
+.main_heading h1 {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.main_heading h1:hover {
+    color: #3498db !important;
+}
+
+.about p{
+    text-align: justify;
+    color: #3498db !important;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+ .journey {
+text-indent: 45px;
+ }
+
+ .skill a:hover{
+    color: #3498db !important;
+    background-color: cornsilk;
+}
+
+
+
+footer p{
+    margin-bottom: 0;
+}
+
+.connect{
+    text-align: center;
+    color: rgb(223, 59, 59) !important;
+content: "";
+width: 100%;
+height: 100%;
+background: url('../contact.jpg') no-repeat center center/cover;
+border: 1px solid brown;
+}
+
+.iconn{
+    opacity: 0.83;
+    z-index: -1;
+}
+
+.connect li {
+    list-style: none;
+    margin: auto;
+    display: inline-block;
+    
+
+}
+.connect li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.connect li a:hover{
+    color: #b9b9b9;
+}
+
+
+.zoom img{
+    padding: 35px;
+    transition: transform 0.5s;
+    width: 100%;
+    height: auto;
+  }
+  
+  .zoom img:hover {
+    transform: scale(1.5);
+  }
+  
+
+  .quote {
+background-attachment: fixed;
+background-image: url('../quote.jpg');
+background-position: center center;
+background-size: cover;
+opacity: 0.79;
+  }
+
+  .quote h2{
+      color: rgb(5, 5, 5);
+      font-weight: bold;
+  }
+
+  .quote h2:hover{
+    color: #3498db !important;
+}
+
+.quote p{
+    font-size: 40px;
+    color: #e29300 !important;
+    font-weight: bold;
+
+}
+ 
