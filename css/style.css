@@ -44,7 +44,7 @@ color: #565387 !important;
     height: 96vh;
 }
 .about_img{
-    min-width: 100%;
+    min-width: 80%;
     max-height: 280px;
 }
 
@@ -156,8 +156,13 @@ opacity: 0.79;
 @media (max-width: 767.98px) { 
 
     .carousel-item img {
-        height: 83vh;
+        height: 65vh;
+    }   
+    .about_img{
+        min-width: 100%;
+
     }
+
 
 } 
 
